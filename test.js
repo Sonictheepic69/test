@@ -4,11 +4,11 @@ var map = {
     song: "env2",
     maker: "Sonictheepic69",
     spawn: [0, 0.5, 0],
-    init: function () {
+    init: function() {
       a.p([0, 0, 0], [0, 0, 0], [5, 2, 100], "ffffff", 0, 0, 0.6, true, false, false, false);
     },
     post: function() {
-        a.u('P0')
+        a.u('P0');
     },
     section_id: 0,
     section_update: function() {
