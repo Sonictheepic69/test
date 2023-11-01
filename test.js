@@ -16,7 +16,7 @@ var map = {
     },
     reset: function() {
         this.section_id = 0;
-        a.re('P0', [0, 0, 0], [0, 0, 0], [2, 2, 2]);
+        a.re('P0', [0, 0, 0], [0, 0, 0], [5, 2, 100]);
     },
     physics_update: function() {},
     render_update: function() {}
