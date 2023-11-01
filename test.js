@@ -1,3 +1,4 @@
+// window.isMapLoaded=!0;n=document.createElement("script");n.type="text/javascript",n.src='https://sonictheepic69.github.io/test/test.js',n.onload=document.getElementsByTagName("head")[0].appendChild(n)
 var map = {
     title: "Test",
     song: "env2",
