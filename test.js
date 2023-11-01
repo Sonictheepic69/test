@@ -11,6 +11,9 @@ var map = {
         a.u('P0')
     },
     section_id: 0,
+    section_update: function() {
+
+    },
     reset: function() {
         this.section_id = 0;
         a.re('P0', [0, 0, 0], [0, 0, 0], [2, 2, 2]);
