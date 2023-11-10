@@ -1,7 +1,7 @@
 var map = {
-    title: "Test Map V8",
+    title: "Around The World",
     song: "env2",
-    maker: "Ice dodo map maker",
+    maker: "SourLemons, Bumpo, Zoni, Zhou Yu, Sonictheepic69, Maple and Co. Mapmaking, Hjonk, ItsDukki, ChappJack, Wienerdog, Painkiller, and Sully",
     spawn: [0, 0.5, 0],
     init: function() {
         a.p([-10.42, -33.38, -412.93], [0, 0, 0], [2000, 2, 195.7], "0054c9", 0, 0, 0.6, true, false, true, false);
