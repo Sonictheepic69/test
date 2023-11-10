@@ -462,7 +462,7 @@ var map = {
             break;
         case 20:
             if (PZ < -511.25999999999993) {
-                a.msg_set("Desert Valley-Sour");
+                a.msg_set("Desert Valley - Sour");
                 scene.clearColor = new BABYLON.Color3.FromHexString("#87ceeb");
                 speed = default_speed * 0.8;
                 a.js(0.5);
