@@ -1,5 +1,5 @@
 var map = {
-    title: "Around The World",
+    title: "Around the World",
     song: "env2",
     maker: "SourLemons, Bumpo, Zoni, Zhou Yu, Sonictheepic69, Maple and Co. Mapmaking, Hjonk, ItsDukki, ChappJack, Wienerdog, Painkiller, and Sully",
     spawn: [0, 0.5, 0],
@@ -287,12 +287,6 @@ var map = {
     },
     post: function() {
         a.u('P150');
-        cc.set_monkey("light.specular", new BABYLON.Color3.FromHexString("#e3e3e3"));
-        cc.set_monkey("scene.clearColor", new BABYLON.Color3.FromHexString("#e3e3e3"));
-        cc.set_monkey("steer", default_steer * 1.5);
-        cc.set_monkey("speed", default_speed * 0.9);
-        cc.set_monkey("jumpSpeed", 0.0);
-        cc.refresh();
         cc.set_monkey("speed", default_speed * 1.2);
         cc.set_monkey("scene.clearColor", new BABYLON.Color3.FromHexString("#0d416b"));
         cc.set_monkey("steer", 0.03);
@@ -502,6 +496,12 @@ var map = {
             break;
         case 24:
             if (PZ < -637.86) {
+		cc.set_monkey("light.specular", new BABYLON.Color3.FromHexString("#e3e3e3"));
+        	cc.set_monkey("scene.clearColor", new BABYLON.Color3.FromHexString("#e3e3e3"));
+      	 	cc.set_monkey("steer", default_steer * 1.5);
+        	cc.set_monkey("speed", default_speed * 0.9);
+        	cc.set_monkey("jumpSpeed", 0.0);
+        	cc.refresh();
                 a.msg_set("Ocean - Maple and Hjonk");
                 this.section_id += 1
             }
