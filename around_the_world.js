@@ -563,11 +563,21 @@ var map = {
             break;
         case 32:
             if (PZ < -932.79) {
+		a.js(0.5);
+                a.jh(0.5);
+                steer = default_steer * 2.5;
+                scene.clearColor = new BABYLON.Color3.FromHexString("#87ceeb");
+                a.msg_set("Rainforest - ItsDu ");
                 this.section_id += 1
             }
             break;
         case 33:
             if (PZ < -1001.3299999999999) {
+                a.js(null);
+                a.jh(null);
+                steer = cc.get("steer", null);
+                scene.clearColor = cc.get("scene.clearColor", null);
+                a.msg_del();
                 this.section_id += 1
             }
             break;
