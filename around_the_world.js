@@ -567,7 +567,7 @@ var map = {
                 a.jh(0.5);
                 steer = default_steer * 2.5;
                 scene.clearColor = new BABYLON.Color3.FromHexString("#87ceeb");
-                a.msg_set("Rainforest - ItsDu ");
+                a.msg_set("Rainforest - ItsDukki ");
                 this.section_id += 1
             }
             break;
