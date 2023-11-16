@@ -284,6 +284,42 @@ var map = {
         a.y([10.18, 24.58, -953.26], [-0.57, 0, 0], [10, 2, 10], "105c0c", 0, 0, 0.6, false, 0.8, false);
         a.y([-2.35, 18.11, -956.9], [0, 0, 0], [10, 2, 10], "105c0c", 0, 0, 0.6, false, 0.8, false);
         a.e([10.76, 19.92, -1083.83]);
+
+	player.actionManager = new BABYLON.ActionManager(scene);
+
+        player.actionManager.registerAction(
+            new BABYLON.ExecuteCodeAction(
+                {
+                    trigger: BABYLON.ActionManager.OnIntersectionEnterTrigger,
+                    parameter: a.m('S0') // trigger mesh
+                },
+                function () {
+                    change_state.die('Died From Shell');
+                }
+            )
+	);
+	player.actionManager.registerAction(
+            new BABYLON.ExecuteCodeAction(
+                {
+                    trigger: BABYLON.ActionManager.OnIntersectionEnterTrigger,
+                    parameter: a.m('S1') // trigger mesh
+                },
+                function () {
+                    change_state.die('Died From Shell');
+                }
+            )
+        );
+	player.actionManager.registerAction(
+            new BABYLON.ExecuteCodeAction(
+                {
+                    trigger: BABYLON.ActionManager.OnIntersectionEnterTrigger,
+                    parameter: a.m('S2') // trigger mesh
+                },
+                function () {
+                    change_state.die('Died From Shell');
+                }
+            )
+        );
     },
     post: function() {
         a.u('P150');
