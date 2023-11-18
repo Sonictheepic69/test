@@ -584,7 +584,6 @@ var map = {
                 a.msg_set("Winter Vacation - Sour");
                 speed = default_speed * 0.5;
                 a.jh(0.7);
-                a.js(2.0);
                 this.section_id += 1
             }
             break;
@@ -593,7 +592,6 @@ var map = {
                 a.msg_del();
                 speed = cc.get("speed", null);
                 a.jh(null);
-                a.js(null);
                 this.section_id += 1
             }
             break;
