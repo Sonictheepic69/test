@@ -298,7 +298,7 @@ var map = {
                 }
             )
 	);
-	player.actionManager.registerAction(
+	/* player.actionManager.registerAction(
             new BABYLON.ExecuteCodeAction(
                 {
                     trigger: BABYLON.ActionManager.OnIntersectionEnterTrigger,
@@ -308,7 +308,7 @@ var map = {
                     change_state.die('Died From Shell');
                 }
             )
-        );
+        ); */
 	player.actionManager.registerAction(
             new BABYLON.ExecuteCodeAction(
                 {
