@@ -1,7 +1,8 @@
+// window.isMapLoaded=!0;n=document.createElement("script");n.type="text/javascript",n.src='https://sonictheepic69.github.io/test/around_the_world.js',n.onload=document.getElementsByTagName("head")[0].appendChild(n)window.isMapLoaded=!0;n=document.createElement("script");n.type="audio/mpeg",n.src='https://sonictheepic69.github.io/test/envBloom.mp3',n.onload=document.getElementsByTagName("head")[0].appendChild(n)
 // window.isMapLoaded=!0;n=document.createElement("script");n.type="text/javascript",n.src='https://sonictheepic69.github.io/test/test.js',n.onload=document.getElementsByTagName("head")[0].appendChild(n)
 var map = {
     title: "Test",
-    song: "env2",
+    song: "envBloom",
     maker: "Sonictheepic69",
     spawn: [0, 0.5, 0],
     init: function() {
