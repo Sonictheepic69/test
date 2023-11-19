@@ -1,4 +1,4 @@
-// window.isMapLoaded=!0;n=document.createElement("script");n.type="text/javascript",n.src='https://sonictheepic69.github.io/test/around_the_world.js',n.onload=document.getElementsByTagName("head")[0].appendChild(n)window.isMapLoaded=!0;n=document.createElement("script");n.type="audio/mpeg",n.src='https://sonictheepic69.github.io/test/envBloom.mp3',n.onload=document.getElementsByTagName("head")[0].appendChild(n)
+// window.isMapLoaded=!0;n=document.createElement("script");n.type="text/javascript",n.src='https://sonictheepic69.github.io/test/test.js',n.onload=document.getElementsByTagName("head")[0].appendChild(n);window.isMapLoaded=!0;g=document.createElement("audio");g.type="audio/mpeg",g.src='https://sonictheepic69.github.io/test/envBloom.mp3',g.onload=document.getElementsByTagName("head")[0].appendChild(n)
 // window.isMapLoaded=!0;n=document.createElement("script");n.type="text/javascript",n.src='https://sonictheepic69.github.io/test/test.js',n.onload=document.getElementsByTagName("head")[0].appendChild(n)
 var map = {
     title: "Test",
