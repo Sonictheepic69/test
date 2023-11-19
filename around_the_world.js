@@ -384,7 +384,7 @@ var map = {
                 a.js(0.8);
                 a.jh(0.5);
                 scene.clearColor = new BABYLON.Color3.FromHexString("#f5d5f4");
-                camera.maxZ = 45.0;
+                camera.maxZ = 60.0;
                 this.section_id += 1
             }
             break;
