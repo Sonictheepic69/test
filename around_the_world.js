@@ -384,7 +384,7 @@ var map = {
                 a.js(0.8);
                 a.jh(0.5);
                 scene.clearColor = new BABYLON.Color3.FromHexString("#f5d5f4");
-                camera.maxZ = 60.0;
+                camera.maxZ = 200.0;
                 this.section_id += 1
             }
             break;
@@ -518,7 +518,7 @@ var map = {
                 scene.clearColor = new BABYLON.Color3.FromHexString("#00ffff");
                 a.cam_d(5.0);
                 a.msg_set("Beach - Sonictheepic69");
-		camera.maxZ = 45.0;
+		camera.maxZ = 90.0;
                 this.section_id += 1
             }
             break;
