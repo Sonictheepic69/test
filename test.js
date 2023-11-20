@@ -2,7 +2,7 @@
 // window.isMapLoaded=!0;n=document.createElement("script");n.type="text/javascript",n.src='https://sonictheepic69.github.io/test/test.js',n.onload=document.getElementsByTagName("head")[0].appendChild(n)
 var map = {
     title: "Test",
-    song: "envBloom",
+    song: "bloom",
     maker: "Sonictheepic69",
     spawn: [0, 0.5, 0],
     init: function() {
