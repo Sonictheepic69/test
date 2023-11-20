@@ -1,4 +1,4 @@
-// v2:
+// v2.1
 // window.isMapLoaded=1;n=document.createElement("script");n.type="text/javascript",n.src='https://sonictheepic69.github.io/test/around_the_world.js',n.onload=document.getElementsByTagName("head")[0].appendChild(n)
 var map = {
     title: "Around the World",
@@ -386,7 +386,7 @@ var map = {
                 a.js(0.8);
                 a.jh(0.5);
                 scene.clearColor = new BABYLON.Color3.FromHexString("#f5d5f4");
-                camera.maxZ = 200.0;
+                camera.maxZ = 600.0;
                 this.section_id += 1
             }
             break;
